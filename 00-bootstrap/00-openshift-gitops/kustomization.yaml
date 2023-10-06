@@ -3,4 +3,3 @@ kind: Kustomization
 resources:
   - 00-openshift-gitops-namespace.yaml
   - 01-openshift-gitops-subscription.yaml
-  - 02-argocd-rbac.yaml
