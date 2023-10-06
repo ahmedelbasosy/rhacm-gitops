@@ -6,8 +6,10 @@ metadata:
   name: openshift-gitops-operator
   namespace: openshift-operators
 spec:
-  channel: latest
+  channel: stable
+#  channel: latest
   installPlanApproval: Automatic
   name: openshift-gitops-operator
-  source: redhat-operators
+  source: do480-catalog
+#  source: redhat-operators
   sourceNamespace: openshift-marketplace
