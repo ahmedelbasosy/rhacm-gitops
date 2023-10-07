@@ -5,6 +5,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "1"
   name: acm-operator-group
+  namespace: open-cluster-management
 spec:
   targetNamespaces:
   - open-cluster-management
