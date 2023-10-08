@@ -14,10 +14,10 @@ spec:
       name: acm-argocd-integration-{{name}}
     spec:
       project: advance-cluster-management
-      syncPolicy:
-        automated:
-          prune: true
-          selfHeal: true
+      syncPolicy: {}
+#        automated:
+#          prune: true
+#          selfHeal: true
       source:
         repoURL: https://github.com/ahmedelbasosy/rhacm-gitops.git
         targetRevision: main
