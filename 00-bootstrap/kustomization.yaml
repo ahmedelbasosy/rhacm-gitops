@@ -4,3 +4,4 @@ resources:
   - 00-openshift-gitops
   - 01-argocd
   - 02-ACM-argo-deployment
+  - 03-ACM-argocd-integration
