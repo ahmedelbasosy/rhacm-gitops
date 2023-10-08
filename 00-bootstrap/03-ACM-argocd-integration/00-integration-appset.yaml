@@ -19,7 +19,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/ignaciolago/rhacm-gitops.git
+        repoURL: https://github.com/ahmedelbasosy/rhacm-gitops.git
         targetRevision: main
         path: resources/03-acm-argocd-integration
       destination:
