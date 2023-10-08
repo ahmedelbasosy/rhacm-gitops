@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     server: 'https://kubernetes.default.svc'
-  project: default
+  project: advance-cluster-management
   source:
     path: resources/01-acm-operator
     repoURL: >-
