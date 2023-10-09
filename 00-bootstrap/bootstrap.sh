@@ -1,7 +1,7 @@
 #!/bin/bash
 
 oc adm groups new cluster-admins
-oc adm groups add-user cluster-admins admin
+oc adm groups add-users cluster-admins admin
 oc adm policy add-cluster-role-to-group cluster-admin cluster-admins
 
 echo "##### Installing Openshift-GitOps Operator #####"
